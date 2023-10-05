@@ -1,44 +1,126 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html>
 <head>
-    <!-- Tu encabezado aquí -->
-    <title>HOLA</title>
-    <link rel="stylesheet" href="Css/styles.css">
-</head>
+    <meta charset="UTF-8">
+    <title>Sabaneta Multifacetica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ce7611;
+            margin: 4;
+            padding: 4;
+        }
 
-<body>
-    <header>
+        nav {
+            background-color: #ffffff;
+            color: #fff;
+            text-align: flex;
+            padding: 4px;
+            display: flex;
+            justify-content: flex; 
+            align-items: center;
+        }
+
+        #logo {
+            width: 50px; 
+            height: auto; 
+            margin: 20px 40px; 
+            align-items: flex-end;
+        }
+
+        .menu-item {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu-item li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .menu-item a {
+            text-decoration: none;
+            color: #251806;
+            font-size: 18px;
+        }
+
+        .menu-item a:hover {
+            background-color: #f7eed0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+
+        h1 {
+            font-size: 45px;
+            margin-bottom: 20px;
+            color: #fff;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #fff;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         
+        }
 
-    <main class="contenedor">
-        <section class="div-formulario">
-            <h2>Formulario</h2>
-            <form action="empleado.html" id="formulario">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" placeholder="Digite su nombre" required>
-                <label for="correo">Correo:</label>
-                <input type="email" id="correo" placeholder="Ingrese su correo electrónico" required>
-                <label for="contrasena">Contraseña:</label>
-                <input type="password" id="contrasena" placeholder="Ingrese su contraseña" required>
-                <label for="puesto">Puesto:</label>
-                <select id="puesto" required>
-                    <option value="">Seleccione un puesto</option>
-                    <option value="Gerente">Gerente</option>
-                    <option value="Asistente">Asistente</option>
-                    <option value="Desarrollador">Desarrollador</option>
-                    <!-- Otras opciones de puesto -->
-                </select>
-                <button type="submit" id="btnAgregar">Agregar</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <!-- Tu pie de página aquí -->
-    </footer>
-
-    <script src="js/MISFUNCIONES.js"></script>
+        .button {
+            background-color: #099744;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="C:\Users\ESTUDIANTE 5\Downloads\SM__1_-removebg-preview (1).png" alt="Logo de la Página" id="logo">
+        <ul class="menu-item">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">              </a></li>
+            <li><a href="#">              </a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">              </a></li>
+            <li><a href="#">              </a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">              </a></li>
+            <li><a href="#">              </a></li>
+            
+            <li><a href="#">              </a></li>
+            <li><a href="#">              </a></li>
+            <li><a href="#">              </a></li>
+            <li><a href="#">              </a></li>
+            <li><a href="#">              </a></li>
+            <li><a href="#">              </a></li>
+            <li><a href="#">Misión</a></li>
+            <li><a href="#">              </a></li>
+            <li><a href="#">              </a></li>
+            <li><a href="#">Visión</a></li>
+            <li><a href="#">              </a></li>
+            <li><a href="#">              </a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>¡Bienvenido!</h1>
+        <p>A Sabaneta Multifacética.</p>
+        <a href="#" class="button">Conoce más</a>
+    </div>
 </body>
+</html>
 
 </html>
+
+  
