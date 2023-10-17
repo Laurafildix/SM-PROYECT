@@ -1,54 +1,177 @@
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.contenedor {
+  width: 100%;
+  height: calc(13 * 37.8px);
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor .div-formulario {
+  width: 350px;
   
-  header {
-    background-color: #000;
-    color: #fff;
-    padding: 20px;
-  }
-  
-  h1 {
-    font-size: 2em;
-    margin-top: 0;
-  }
-  
-  main {
-    background-color: #f5953c;
-    padding: 20px;
-  }
-  
-  section {
-    margin-bottom: 20px;
-  }
-  
-  .trabajos {
-    list-style: none;
-  }
-  
-  .trabajos li {
-    margin-bottom: 10px;
-  }
-  
-  .trabajos li a {
-    display: block;
-  }
-  
-  .trabajos li a img {
-    width: 100%;
-  }
-  
-  .trabajos li a h3 {
-    margin-top: 10px;
-  }
-  
-  .trabajos li a p {
-    margin-top: 10px;
-  }
-  
-  .contacto {
-    text-align: center;
-  }
-  
+  margin: 45px 45px;
+  background-color: rgb(245, 165, 4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px rgba(137, 90, 2, 0.3);
+}
+
+.contenedor .div-formulario h2 {
+  margin-top: 10px;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #1c1d1b;
+  font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+
+.contenedor .div-formulario form {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor .div-formulario form input,
+.contenedor .div-formulario form button {
+  width: 60%;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contenedor .div-formulario form label {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.contenedor .div-listado {
+  width: 45%;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px rgba(110, 60, 60, 0.3);
+}
+
+.contenedor .div-listado h2 {
+  margin-top: 10px;
+  font-weight: 100;
+  font-size: 2em;
+  color: #3ba44b;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contenedor .div-listado .div-empleados {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  padding: 0 30px;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  margin: 5px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn-editar {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.btn-eliminar {
+  background-color: #F44336;
+  color: #fff;
+}
+/* Estilos para el carrousel */
+#galeria {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.carrousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrousel {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+}
+
+.carrousel img {
+  width: 100%;
+  height: auto;
+}
+
+.carrousel-button {
+  background-color: #099744;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.carrousel-button:hover {
+  background-color: #076536;
+}
+
+.carrousel-prev {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carrousel-next {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu-fijo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100; 
+  background-color: #ffffff;
+  color: #251806;
+}
