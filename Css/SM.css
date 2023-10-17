@@ -4,6 +4,30 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ce7611;
+  margin: 4;
+  padding: 4;
+}
+
+nav {
+  background-color: #ffffff;
+  color: #fff;
+  text-align: flex;
+  padding: 2px;
+  display: flex;
+  justify-content: flex; 
+  align-items: center;
+}
+
+#logo {
+  width: 50px; 
+  height: auto; 
+  margin: 20px 40px; 
+  align-items: flex-end;
+}
+
 
 
 .contenedor {
@@ -15,7 +39,7 @@
 
 .contenedor .div-formulario {
   width: 350px;
-  
+  height: 370px;
   margin: 45px 45px;
   background-color: rgb(245, 165, 4);
   display: flex;
@@ -174,4 +198,64 @@ hr {
   z-index: 100; 
   background-color: #ffffff;
   color: #251806;
+}
+
+.menu-item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #251806;
+  font-size: 18px;
+}
+
+.menu-item a:hover {
+  background-color: #f7eed0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 45px;
+  margin-bottom: 70px;
+  color: #fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #fff;
+
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.button {
+  background-color: #099744;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+  display: inline-block;
 }
