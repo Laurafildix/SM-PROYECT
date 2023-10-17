@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const contrasena = contrasenaInput.value;
         const puesto = puestoInput.value;
 
-        if (nombre === '' || correo === '' || contrasena === '' || puesto === '') {
+        if (nombre === '' || correo === '' || contraseña === '' || puesto === '') {
             alert("😒 Es obligatorio diligenciar todos los campos 😒");
             return;
         }
@@ -64,3 +64,37 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 });
+
+    const carrousel = document.querySelector(".carrousel");
+    const prevButton = document.querySelector(".carrousel-prev");
+    const nextButton = document.querySelector(".carrousel-next");
+
+    let currentIndex = 0;
+
+    function showImage(index) {
+        const images = carrousel.querySelectorAll("img");
+        if (index < 0) {
+            currentIndex = images.length - 1;
+        } else if (index >= images.length) {
+            currentIndex = 0;
+        }
+        images.forEach((image, i) => {
+            if (i === currentIndex) {
+                image.style.display = "block";
+            } else {
+                image.style.display = "none";
+            }
+        });
+    }
+
+    showImage(currentIndex);
+
+    prevButton.addEventListener("click", () => {
+        currentIndex--;
+        showImage(currentIndex);
+    });
+
+    nextButton.addEventListener("click", () => {
+        currentIndex++;
+        showImage(currentIndex);
+    });

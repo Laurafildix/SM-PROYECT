@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Sabaneta Multifacetica</title>
+    <link rel="stylesheet" href="./static/misestilos.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -15,7 +16,7 @@
             background-color: #ffffff;
             color: #fff;
             text-align: flex;
-            padding: 4px;
+            padding: 2px;
             display: flex;
             justify-content: flex; 
             align-items: center;
@@ -59,9 +60,14 @@
 
         h1 {
             font-size: 45px;
-            margin-bottom: 20px;
+            margin-bottom: 70px;
             color: #fff;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        h2 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #fff;
+
         }
 
         p {
@@ -85,16 +91,16 @@
     </style>
 </head>
 <body>
-    <nav>
-        <img src="C:\Users\ESTUDIANTE 5\Downloads\SM__1_-removebg-preview (1).png" alt="Logo de la Página" id="logo">
+    <nav class="menu-fijo">
+        <img src="C:\Users\Lenovo\Desktop\MEDIATEC\Lauracorea\static\image-removebg-preview (6).png" alt="Logo de la Página" id="logo">
         <ul class="menu-item">
-            <li><a href="#">Inicio</a></li>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="#">              </a></li>
             <li><a href="#">              </a></li>
-            <li><a href="#">Acerca de</a></li>
+            <li><a href="acerca.html">Acerca de</a></li>
             <li><a href="#">              </a></li>
             <li><a href="#">              </a></li>
-            <li><a href="#">Servicios</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
             <li><a href="#">              </a></li>
             <li><a href="#">              </a></li>
             
@@ -113,14 +119,68 @@
             <li><a href="#">Contacto</a></li>
         </ul>
     </nav>
-    <div class="container">
-        <h1>¡Bienvenido!</h1>
-        <p>A Sabaneta Multifacética.</p>
-        <a href="#" class="button">Conoce más</a>
-    </div>
+    
+
+    
+    <main>
+        <!-- Contenido específico de la página de inicio -->
+        <section id="inicio">
+            <div class="container">
+                
+                <h1>¡Bienvenido!</h1>
+                <h1>¡Bienvenido!</h1>
+                <p>A Sabaneta Multifacética.</p>
+                <a href="#" class="button">Conoce más</a>
+            </div>
+        
+        
+        
+        <div class="div-title">
+            </div>
+            <div class="div-empleados"></div>
+            <div class="contenedor">
+                <div class="div-formulario"> 
+                    <h2>REGISTRARSE</h2>
+                    <hr>
+                    <form id="REGISTRARSE">
+                        <label for="nombre"></label>
+                        <input type="text" placeholder= " Digite su nombre"id="nombre" required>
+                        
+                        <label for="correo"></label>
+                        <input type="email" placeholder= "Digite su correo Electrónico"id="correo" required>
+                        <label for="contrasena"></label>
+                        <input type="password" placeholder= "Digite su contraseña"id="contrasena" required>
+                        <label for="puesto"></label>
+                        <input type="text" placeholder="Digite su puesto"id="puesto" required>
+        
+                        <button type="submit" id="btnAgregar">Agregar</button>
+                    </form>
+                </div>
+                <div class="div-listado">
+                    <h2>Listado Empleados</h2>
+                    <div class="div-empleados"></div>
+                </div>
+            </div>
+            <div src="./static/Funciones.js"></div></body>
+        </section>
+
+        <!-- Contenido específico de la página Acerca de -->
+        <section id="acerca">
+            <h2>Acerca de Nosotros</h2>
+            <img src="C:\Users\Lenovo\Pictures\Saved Pictures\grupo-personas-trabajando-plan-negocios-oficina_1303-15768.avif" alt="Nosotros">
+            <h3>En Sabaneta Multifacética queremos que los habitantes  locales, 
+                presenten sus habilidades y preparación profesional para la 
+                contratación de servicio y búsqueda de trabajo y capital por medio de un sitio web 
+                seguro y totalmente gratuito donde ellos mismos ingresaran un  precio inicial acorde a 
+                su profesión y tiempo de trabajo.</h3>
+        </section>
+
+        <!-- Contenido específico de la página Servicios -->
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <!-- Contenido de la página "Servicios" aquí -->
+        </section>
+        
+    </main>
 </body>
 </html>
-
-</html>
-
-  
