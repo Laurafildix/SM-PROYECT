@@ -294,7 +294,114 @@ p {
   margin: 20px 0; /* Espacio alrededor del separador */
 }
 
+#servicios {
+  text-align: center; /* Centrar el contenido horizontalmente */
+}
 
+#servicios h2 {
+  margin: 0;/* Eliminar el margen superior e inferior del título */
+  font-size: 36px; 
+}
 
+#traba {
+  display: block; /* Convertir la imagen en un bloque para centrarla */
+  margin: 0 auto; /* Centrar la imagen horizontalmente */
+}
 
+#acerca {
+  display: flex;
+  justify-content: space-between; /* Coloca los elementos a los extremos */
+  align-items: center; /* Centra verticalmente los elementos */
+}
 
+.imagen-izquierda {
+  max-width: 40%; /* Ajusta el tamaño de la imagen a tu preferencia */
+}
+
+.texto-derecha {
+  flex: 1; /* Permite que ocupe el espacio restante */
+}
+
+#titulo-sobre-nosotros {
+  font-size: 30px; /* Ajusta el tamaño de la fuente a tu preferencia */
+}
+
+#texto-sobre-nosotros {
+  font-size: 24px; /* Ajusta el tamaño de la fuente a tu preferencia */
+}
+
+/* Estilo para las secciones con fondo negro */
+#contacto,
+#contacto h2,
+#contacto h3 {
+  background-color: black;
+  color: white; /* Cambia el color del texto para que sea visible en el fondo negro */
+  padding: 20px; /* Agrega espacio alrededor del contenido */
+}
+
+/* Estilo para el texto de la sección "Contactanos" */
+#contacto h2 {
+  font-size: 24px; /* Ajusta el tamaño de la fuente a tu preferencia */
+}
+
+/* Estilo para el contenido de la sección "Contactanos" */
+#contacto h3 {
+  font-size: 18px; /* Ajusta el tamaño de la fuente a tu preferencia */
+}
+
+#mision {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.texto-izquierda {
+  flex: 1;
+  text-align: left;
+}
+
+.imagen-derecha {
+  max-width: 40%;
+}
+
+#titulo-sobre-mision {
+  font-size: 24px; /* Ajusta el tamaño de la fuente a tu preferencia */
+}
+
+#texto-sobre-mision {
+  font-size: 18px; /* Ajusta el tamaño de la fuente a tu preferencia */
+}
+
+#vision {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imagen-izquierda {
+  max-width: 40%;
+}
+
+.texto-derecha {
+  flex: 1;
+}
+
+#contacto {
+  text-align: center;
+}
+
+.imagen-izquierda {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.imagen-izquierda img {
+  max-width: 10%;
+}
+
+.imagen-izquierda p {
+  text-align: left;
+  margin-left: 20px;
+  font-size: 18px; /* Ajusta el tamaño de la fuente según tus preferencias */
+}
