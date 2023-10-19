@@ -3,104 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Sabaneta Multifacetica</title>
-    <link rel="stylesheet" href="./static/misestilos.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ce7611;
-            margin: 4;
-            padding: 4;
-        }
-
-        nav {
-            background-color: #ffffff;
-            color: #fff;
-            text-align: flex;
-            padding: 2px;
-            display: flex;
-            justify-content: flex; 
-            align-items: center;
-        }
-
-        #logo {
-            width: 50px; 
-            height: auto; 
-            margin: 20px 40px; 
-            align-items: flex-end;
-        }
-
-        .menu-item {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        .menu-item li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        .menu-item a {
-            text-decoration: none;
-            color: #251806;
-            font-size: 18px;
-        }
-
-        .menu-item a:hover {
-            background-color: #f7eed0;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 20px;
-            text-align: center;
-        }
-
-
-        h1 {
-            font-size: 45px;
-            margin-bottom: 70px;
-            color: #fff;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        h2 {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            color: #fff;
-
-        }
-
-        p {
-            font-size: 18px;
-            line-height: 1.5;
-            color: #fff;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        
-        }
-
-        .button {
-            background-color: #099744;
-            color: #fff;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 18px;
-            margin-top: 20px;
-            display: inline-block;
-        }
-    </style>
+    <link rel="stylesheet" href="./Css/styles.css">
+    <link rel="stylesheet" href="Css/SM.css">
 </head>
 <body>
     <nav class="menu-fijo">
-        <img src="C:\Users\Lenovo\Desktop\MEDIATEC\Lauracorea\static\image-removebg-preview (6).png" alt="Logo de la Página" id="logo">
+        <img src="logo.png" alt="Logo de la Página" id="logo">
         <ul class="menu-item">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="#">              </a></li>
             <li><a href="#">              </a></li>
-            <li><a href="acerca.html">Acerca de</a></li>
+            <li><a href="#separador-horizontal">Acerca de</a></li>
             <li><a href="#">              </a></li>
             <li><a href="#">              </a></li>
-            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="#servicios">Servicios</a></li>
             <li><a href="#">              </a></li>
             <li><a href="#">              </a></li>
             
@@ -110,13 +26,13 @@
             <li><a href="#">              </a></li>
             <li><a href="#">              </a></li>
             <li><a href="#">              </a></li>
-            <li><a href="#">Misión</a></li>
+            <li><a href="#mision">Misión</a></li>
             <li><a href="#">              </a></li>
             <li><a href="#">              </a></li>
-            <li><a href="#">Visión</a></li>
+            <li><a href="#vision">Visión</a></li>
             <li><a href="#">              </a></li>
             <li><a href="#">              </a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
     
@@ -130,8 +46,9 @@
                 <h1>¡Bienvenido!</h1>
                 <h1>¡Bienvenido!</h1>
                 <p>A Sabaneta Multifacética.</p>
-                <a href="#" class="button">Conoce más</a>
+                <a href="usuarios.html" class="button">Conoce más</a>
             </div>
+            
         
         
         
@@ -156,31 +73,66 @@
                         <button type="submit" id="btnAgregar">Agregar</button>
                     </form>
                 </div>
-                <div class="div-listado">
-                    <h2>Listado Empleados</h2>
-                    <div class="div-empleados"></div>
-                </div>
-            </div>
-            <div src="./static/Funciones.js"></div></body>
-        </section>
+                <section id="acerca">
+                    <div class="separador-horizontal"></div>
+                    <h1> </h1>
+                    <div class="separador-horizontal"></div>
+                    <h1> </h1>
+                    <h1> </h1>
+                    <h1> </h1>
+                    </section>
+                    </section>
+                    </section>
+                    </section>
+                    <h3>En Sabaneta Multifacética queremos que los habitantes  locales, 
+                        presenten sus habilidades y preparación profesional para la 
+                        contratación de servicio y búsqueda de trabajo y capital por medio de un sitio web 
+                        seguro y totalmente gratuito donde ellos mismos ingresaran un  precio inicial acorde a 
+                        su profesión y tiempo de trabajo.</h3>
+                    </section>
+                    <div class="separador-horizontal"></div>
+                    <!-- Contenido específico de la página Servicios -->
+                    <section id="servicios">
+                    <h2>Nuestros Servicios</h2>
+                    <img src="traba.png" alt="Servi" id="traba">
+                    <h3>En Sabaneta Multifacética queremos que los habitantes  locales, 
+                        presenten sus habilidades y preparación profesional para la 
+                        contratación de servicio y búsqueda de trabajo y capital por medio de un sitio web 
+                        seguro y totalmente gratuito donde ellos mismos ingresaran un  precio inicial acorde a 
+                        su profesión y tiempo de trabajo.</h3>
+                    </section>
+                    <div class="separador-horizontal"></div>
+                    <section id="mision">
+                    <h2>Nuestra Misión</h2>
+                    <!-- Contenido de la página "Servicios" aquí -->
+                    <h3>Darle visivilidad a tdoos los trabajadores independientes de Sabaneta, asi mismo a
+                        los que recien empezaran su trancito en la vida labora, facilitando la busqueda y
+                        contratacion de empleos.</h3>
+                    </section>
+                    <div class="separador-horizontal"></div>
+                    
+                    <section id="vision">
+                    <h2>Nuestra Visión</h2>
+                    <!-- Contenido de la página "Servicios" aquí -->
+                    <h3>En busca de un futuro de equidad, Sabaneta Multifacetica, trabaja en funcion de los
+                        residentes de Sabaneta, para alcanzar  la meta común de aumentar el flujo de la
+                        economia en el municipio.
+                        Seremos el mejor sitio web para la solicitud de trabajos y servicios acompañados
+                        siempre por nuestros valores corporativos.</h3>
+                    </section>
+                    <div class="separador-horizontal"></div>
+                    <section id="contacto">
+                    <h2>Contactanos</h2>
+                    <!-- Contenido de la página "Servicios" aquí -->
+                    <h3>En Sabaneta Multifacética queremos que los habitantes  locales, 
+                        presenten sus habilidades y preparación profesional para la 
+                        contratación de servicio y búsqueda de trabajo y capital por medio de un sitio web 
+                        seguro y totalmente gratuito donde ellos mismos ingresaran un  precio inicial acorde a 
+                        su profesión y tiempo de trabajo.</h3>
+                    </section>
+               
 
-        <!-- Contenido específico de la página Acerca de -->
-        <section id="acerca">
-            <h2>Acerca de Nosotros</h2>
-            <img src="C:\Users\Lenovo\Pictures\Saved Pictures\grupo-personas-trabajando-plan-negocios-oficina_1303-15768.avif" alt="Nosotros">
-            <h3>En Sabaneta Multifacética queremos que los habitantes  locales, 
-                presenten sus habilidades y preparación profesional para la 
-                contratación de servicio y búsqueda de trabajo y capital por medio de un sitio web 
-                seguro y totalmente gratuito donde ellos mismos ingresaran un  precio inicial acorde a 
-                su profesión y tiempo de trabajo.</h3>
-        </section>
-
-        <!-- Contenido específico de la página Servicios -->
-        <section id="servicios">
-            <h2>Nuestros Servicios</h2>
-            <!-- Contenido de la página "Servicios" aquí -->
-        </section>
-        
     </main>
+    <script src="JS/MISFUNCIONES.js"></script>
 </body>
 </html>
