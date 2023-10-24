@@ -2,17 +2,17 @@
 
 <div>
   <p style = 'text-align:center;'>
-  <img src = "https://i.postimg.cc/R0XwVYFh/SM.png"
-    <p/>
+  <img src = "https://i.postimg.cc/R0XwVYFh/SM.png" 
+  <p/>
 </div>
- INSIGNIAS:
+ __INSIGNIAS__
 - Apoyo
 - Innovación
 - Emprendimiento
 - Comunidad
 -Compromiso
 
- ÍNDICE
+ __ÍNDICE__
 
 1. Descripción del Proyecto
 2. Estado del Proyecto
@@ -21,22 +21,22 @@
 5. Tecnologías Utilizadas
 6. Personas Contribuyentes
 7. Personas Desarrolladoras del Proyecto
-8. Licencia
+  
 
-1. Descripción del Proyecto
+1. __Descripción del Proyecto__
 
 El proyecto Sabaneta Multifacética tiene como objetivo principal simplificar y agilizar la búsqueda y contratación de empleos en el municipio de Sabaneta. Este proyecto contribuirá al fortalecimiento de la economía local y al estímulo del espíritu emprendedor en Sabaneta. Deseamos que cada individuo, desde los emprendedores locales hasta los jóvenes que están por iniciar su trayectoria profesional, encuentren oportunidades laborales de manera más accesible y eficiente.
 
 A través de nuestro proyecto, aspiramos a crear un entorno en el que las personas puedan alcanzar sus metas laborales y contribuir al crecimiento sostenible de Sabaneta. Nuestra visión es ser la principal plataforma para la búsqueda de trabajos y servicios, respaldada por nuestros sólidos valores corporativos. Nuestro enfoque está en la equidad, la transparencia y la responsabilidad. Visualizamos un Sabaneta donde cada residente tenga igualdad de oportunidades en el mundo laboral y emprendedor.
 Somos más que un sitio web, somos una comunidad comprometida con la construcción de un municipio más próspero y unido. Nuestra meta es crear un futuro de equidad y oportunidades para todos en Sabaneta.
 
-2. Estado del Proyecto
+2. __Estado del Proyecto__
 
 El proyecto se encuentra en desarrollo activo. Estamos trabajando arduamente para implementar todas las funcionalidades necesarias y asegurarnos de que el proyecto cumpla con sus objetivos. A medida que avanzamos, mantenemos registro de novedades y cambios realizados.
 
-3. Demostración de Funciones y Aplicaciones
+3. __Demostración de Funciones y Aplicaciones__
 
-Muestra de algunas funciones y aplicaciones del proyecto:
+__Muestra de algunas funciones y aplicaciones del proyecto:_
 
 - Búsqueda de Empleo: Los usuarios pueden buscar empleos en Sabaneta de manera rápida y sencilla a través de nuestra plataforma.
 
@@ -46,21 +46,22 @@ Muestra de algunas funciones y aplicaciones del proyecto:
 
 - Notificaciones Personalizadas: Los usuarios pueden recibir notificaciones de trabajos que se ajusten a sus preferencias.
 
-4. Acceso al Proyecto
+4. __Acceso al Proyecto__
 
  Se podrá acceder al proyecto en nuestra plataforma en línea (cuando la tengamos ya subida en la nube y con su respectivo dominio) y comenzar a explorar las oportunidades laborales disponibles en Sabaneta y así mismo, presentar tu información para conseguir una contratación.
 
- 5. Tecnologías Utilizadas
+ 5. __Tecnologías Utilizadas__
 
 - JavaScript: JavaScript es un lenguaje de programación fundamental para el desarrollo web. Lo utilizamos para crear interacciones dinámicas en la interfaz de usuario, realizar validaciones de formularios y mejorar la experiencia del usuario.
  - CSS: utilizamos para dar estilo y diseño a nuestro sitio web. Nos permite definir la presentación visual de la plataforma, incluyendo colores, fuentes, tamaños y diseños. Gracias a CSS, podemos crear un diseño atractivo y fácil de navegar para nuestros usuarios. 
 - HTML: lenguaje de marcado que utilizamos para estructurar y organizar el contenido de nuestro sitio web. A través de etiquetas HTML, creamos la estructura de las páginas, desde encabezados y párrafos hasta formularios y enlaces. Esto garantiza que la información se presente de manera coherente y accesible. 
 - Repositorios en GitHub: Utilizamos GitHub como plataforma de control de versiones para gestionar y colaborar en el desarrollo de nuestro proyecto. Los repositorios de GitHub nos permiten dar un seguimiento de los cambios, gestionar problemas, realizar colaboraciones, llevar registros de trabajo personal y asegurarnos de que el código fuente esté bien organizado y documentado. Nos permite conectar partes del proyecto y trabajar remotamente.
- 6. Personas Contribuyentes
+  
+ 6. __Personas Contribuyentes__
 
 Un gran agradecimiento a los profesores del CEOGET que han contribuido a este proyecto con sus ideas, sugerencias y apoyo continuo. Este proyecto no sería posible sin su participación activa y retroalimentaciones.
 
-7. Personas Desarrolladoras del Proyecto
+7. __Personas Desarrolladoras del Proyecto__
 
 -Juan Carlos Cardona https://github.com/JCCA05 (Front)
 -Laura Correa Giraldo https://github.com/Laurafildix (Owner, front)
