@@ -23,14 +23,14 @@
 7. Personas Desarrolladoras del Proyecto
   
 
-1. __Descripción del Proyecto__
+1. __📢Descripción del Proyecto__
 
 El proyecto Sabaneta Multifacética tiene como objetivo principal simplificar y agilizar la búsqueda y contratación de empleos en el municipio de Sabaneta. Este proyecto contribuirá al fortalecimiento de la economía local y al estímulo del espíritu emprendedor en Sabaneta. Deseamos que cada individuo, desde los emprendedores locales hasta los jóvenes que están por iniciar su trayectoria profesional, encuentren oportunidades laborales de manera más accesible y eficiente.
 
 A través de nuestro proyecto, aspiramos a crear un entorno en el que las personas puedan alcanzar sus metas laborales y contribuir al crecimiento sostenible de Sabaneta. Nuestra visión es ser la principal plataforma para la búsqueda de trabajos y servicios, respaldada por nuestros sólidos valores corporativos. Nuestro enfoque está en la equidad, la transparencia y la responsabilidad. Visualizamos un Sabaneta donde cada residente tenga igualdad de oportunidades en el mundo laboral y emprendedor.
 Somos más que un sitio web, somos una comunidad comprometida con la construcción de un municipio más próspero y unido. Nuestra meta es crear un futuro de equidad y oportunidades para todos en Sabaneta.
 
-2. __Estado del Proyecto__
+2. __📚Estado del Proyecto__
 
 El proyecto se encuentra en desarrollo activo. Estamos trabajando arduamente para implementar todas las funcionalidades necesarias y asegurarnos de que el proyecto cumpla con sus objetivos. A medida que avanzamos, mantenemos registro de novedades y cambios realizados.
 
