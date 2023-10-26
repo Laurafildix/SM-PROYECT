@@ -45,17 +45,48 @@ __Muestra de algunas funciones y aplicaciones del proyecto:_
 - Perfil de Usuario: Los usuarios pueden crear perfiles que resalten sus habilidades y experiencia.  Además, que para el contratador será útil tener una vista física por medio de una foto de perfil del trabajador Pueden agregar además sus años de experiencia y lo que cobrarían por su trabajo por un tiempo establecido. 
 
 - Notificaciones Personalizadas: Los usuarios pueden recibir notificaciones de trabajos que se ajusten a sus preferencias.
+  
+-Validar campos de registro y mostrar alerta:*
+
+Para validar que no se deje ningún campo de registro vacío y mostrar una alerta en caso de que falten datos, puedes modificar la función `agregarEmpleado` en `MISFUNCIONES.js` de la siguiente manera:
+
+javascript
+function agregarEmpleado(nombre, correo, contrasena, puesto) {
+    if (nombre === '' || correo === '' || contrasena === '' || puesto === '') {
+        alert("😒 Es obligatorio diligenciar todos los campos 😒");
+        return;
+    }
+
+    const objEmpleado = {
+        id: Date.now(),
+        nombre: nombre,
+        correo: correo,
+        contrasena: contrasena,
+        puesto: puesto
+    };
+    listaEmpleados.push(objEmpleado);
+    localStorage.setItem('empleados', JSON.stringify(listaEmpleados)); // Guarda la lista actualizada en el almacenamiento local
+    mostrarEmpleados(); // Muestra los empleados después de agregar uno nuevo
+    formulario.reset(); // Limpia el formulario después de agregar un empleado
+}
+
+
+Este código verificará si alguno de los campos está vacío y mostrará una alerta en caso de que falte algún dato al intentar agregar un empleado.
 
 4. __Acceso al Proyecto__
 
  Se podrá acceder al proyecto en nuestra plataforma en línea (cuando la tengamos ya subida en la nube y con su respectivo dominio) y comenzar a explorar las oportunidades laborales disponibles en Sabaneta y así mismo, presentar tu información para conseguir una contratación.
 
- 5. __Tecnologías Utilizadas__
+ 5. __Tecnologías Utilizadas y procesos de funcionamiento__
 
-- JavaScript: JavaScript es un lenguaje de programación fundamental para el desarrollo web. Lo utilizamos para crear interacciones dinámicas en la interfaz de usuario, realizar validaciones de formularios y mejorar la experiencia del usuario.
- - CSS: utilizamos para dar estilo y diseño a nuestro sitio web. Nos permite definir la presentación visual de la plataforma, incluyendo colores, fuentes, tamaños y diseños. Gracias a CSS, podemos crear un diseño atractivo y fácil de navegar para nuestros usuarios. 
-- HTML: lenguaje de marcado que utilizamos para estructurar y organizar el contenido de nuestro sitio web. A través de etiquetas HTML, creamos la estructura de las páginas, desde encabezados y párrafos hasta formularios y enlaces. Esto garantiza que la información se presente de manera coherente y accesible. 
-- Repositorios en GitHub: Utilizamos GitHub como plataforma de control de versiones para gestionar y colaborar en el desarrollo de nuestro proyecto. Los repositorios de GitHub nos permiten dar un seguimiento de los cambios, gestionar problemas, realizar colaboraciones, llevar registros de trabajo personal y asegurarnos de que el código fuente esté bien organizado y documentado. Nos permite conectar partes del proyecto y trabajar remotamente.
+- JavaScript: JavaScript es un lenguaje de programación fundamental para el desarrollo web. Lo utilizamos para crear interacciones dinámicas en la interfaz de usuario, realizar validaciones de formularios y mejorar la experiencia del usuario. Ademas para crear diversas funciones.
+ - CSS: utilizamos para dar estilo y diseño a nuestro sitio web. Nos permite definir la presentación visual de la plataforma, incluyendo colores (Naranja, Verde, blanco y negro para titulos y texto), fuentes como __(Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif)__,__(Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif)__ que son armoniosas a la vista del usurario, tamaños y diseños. Gracias a CSS, hemos podido crear un diseño atractivo y fácil de navegar para nuestros usuarios. 
+- HTML: Es el lenguaje de marcado que utilizamos para estructurar y organizar el contenido de nuestro sitio web. A través de etiquetas HTMl creamos la estructura de las páginas, desde encabezados y párrafos hasta formularios y enlaces. Asi nos aseguramos de que la información se presente de manera coherente y accesible. Nuestra pagina tiene el diseño tradicional web, con barra deslizante y un menu funcional el cual al presionar alguno de nuestros subtitulos (enlaces), el navegador llevará al usuario directamente a la sección correspondiente de la página sin abrir una ventana nueva.  Todo esto se hizo agregando IDs a los Subtítulos:
+Utilizamos el atributo __ID__(id) en los elementos HTML para asignar identificadores únicos a tus subtítulos. Estos identificadores deben ser únicos en la página.
+        1) Primero, nos aseguramos de tener un contenedor con un ID específico en usuarios.html donde mostraremos los empleados. Por ejemplo, hemos creado un div con el ID lista-empleados
+        2)Luego se crearon enlaces de hipertexto. En el atributo href de estos enlaces, especifica el valor del id del subtítulo que deseabamos vincular. El símbolo # se coloca antes del id en el lado izquierdo.
+- Repositorios en GitHub: Utilizamos GitHub como plataforma de control de versiones para gestionar y colaborar en el desarrollo de nuestro proyecto. Los repositorios de GitHub nos permiten dar un seguimiento a los cambios, gestionar problemas, realizar colaboraciones, llevar registros de trabajo personal y asegurarnos de que el código fuente esté bien organizado y documentado. Nos permite conectar partes del proyecto y trabajar remotamente.
+- SCRUM TEAM: 
   
  6. __Personas Contribuyentes__
 
