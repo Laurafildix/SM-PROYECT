@@ -86,7 +86,7 @@ Utilizamos el atributo __ID__(id) en los elementos HTML para asignar identificad
         1) Primero, nos aseguramos de tener un contenedor con un ID específico en usuarios.html donde mostraremos los empleados. Por ejemplo, hemos creado un div con el ID lista-empleados
         2)Luego se crearon enlaces de hipertexto. En el atributo href de estos enlaces, especifica el valor del id del subtítulo que deseabamos vincular. El símbolo # se coloca antes del id en el lado izquierdo.
 - Repositorios en GitHub: Utilizamos GitHub como plataforma de control de versiones para gestionar y colaborar en el desarrollo de nuestro proyecto. Los repositorios de GitHub nos permiten dar un seguimiento a los cambios, gestionar problemas, realizar colaboraciones, llevar registros de trabajo personal y asegurarnos de que el código fuente esté bien organizado y documentado. Nos permite conectar partes del proyecto y trabajar remotamente.
-- SCRUM TEAM: 
+- SCRUM TEAM: Un Scrum Team está compuesto por un Product Owner, el equipo de desarrollo y un Scrum Master, lo importante es que un Scrum Team siempre tenga a los tres roles representados, y que, en todo momento, todo el Scrum Team sepa quien está desempeñando qué rol, Los Scrum Teams están diseñados para ser multifuncionales y auto-organizados. Ellos deciden cómo realizar su trabajo, y tienen todas las competencias necesarias para ello dentro del equipo.
   
  6. __Personas Contribuyentes__
 
